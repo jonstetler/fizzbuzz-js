@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<script type="text/javascript" src="src/fizzbuzz-game.js"></script>
+		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+	</head>
+	<body>
+	<div class="container">
+		<div class="panel panel-primary">
+			<div class="panel-heading"><h4>Click the big green button below to generate a FizzBuzz Grid from 1 to 100</h4></div>
+			<div class="panel-body">
+				<button class="btn btn-success btn-lg btn-block" onclick="FizzBuzzGame.render();">Play!</button>		
+			</div>
+  			
+		</div>
+		
+		<div class="row">
+			<div class="col-xs-12">
+				<table class="table table-bordered">
+					<tbody id="fizz-buzz-results"></tbody>
+				</table>		
+			</div>
+			
+		</div>
+	</div>
+	
+	</body>
+</html>
